@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 02</title>
+    <title>Proyecto</title>
+    <meta name="description" content="pagina pa tirar codigo html">
+    <link rel="shortcut icon" href="img/ola.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="fondo">
+    <header class="header background">
+        <article class="border">
+            Logo
+        </article>
+        <nav class="border menuprincipal">
+            <ul class="menu1">
+                <li class="item">
+                    <a href="registro.html" target="_blank">Inicio</a>
+                <li>   
+                <li class="item">
+                    <a href="registro.html#parrafo3">Nosotros</a>
+                <li>
+                <li class="item">Galeria</li>
+                <li class="item">Contacto</li>
+                <li class="item">
+                    <a href="#listas">Listas</a>
+                <li>
+            </ul>
+        </nav>  
+        <nav class="border">
+            Login
+        </nav> 
+    
+    </header>
+    <br>
+    <main class="main">
+        <section class="encabezado border">
+            <h1>encabezado</h1>
+            <h2>encabezado</h2>
+            <h3>encabezado</h3>
+            <h4>encabezado</h4>
+            <h5>encabezado</h5>
+            <h6>encabezado</h6>
+
+        </section>
+        <br>
+        <section class="border">
+            <h1>Parrafos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis perspiciatis ipsam nulla architecto sed aperiam nobis odio, error fuga consequuntur eaque atque animi magnam eligendi officiis sequi veniam ut placeat!</p>
+        </section>
+        <section class="border ">
+            <h1 id="listas"> Listas</h1>
+            <p>
+                <a href="#top">subir</a>
+            </p>
+            <h2>Listas Ordenadas</h2>
+            <ol>
+                <li>1 Item</li>
+                <li>2 Item</li>
+                <li>3 Item</li>
+                <li>4 Item</li>
+                <li>5 Item</li>
+            </ol>
+            <h3>Listas Desordenadas</h3>
+            <ul>
+                <li>1 Item</li>
+                <li>2 Item</li>
+                <li>3 Item</li>
+                <li>4 Item</li>
+                <li>5 Item</li>
+            </ul>
+            <h4>Listas De Definicion</h4>
+            <dl>
+                <dt><strong>Manzana</strong></dt>
+                <dd><i>Descripcion Termino 1</i></dd>
+                <dt><strong>Termino a definir</strong></dt>
+                <dd><i>Descripcion Del Termino</i></dd>
+            </dl>
+        </section>
+    </main>
+    <section>
+        <H1>Tablas</H1>
+        <table>
+            <thead>
+                <tr>
+                <th class="border">Hora</th>
+                <th class="border">Lunes</th>
+                <th class="border">Martes</th>
+                <th class="border">Miercoles</th>
+                <th class="border">Jueves</th>
+                <th class="border">Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border">7:00 - 9:00</td>
+                    <td class="border">Etica</td>
+                    <td class="border" rowspan="2">Algoritmia</td>
+                    <td class="border" rowspan="2">Base De Datos</td>
+                    <td class="border">POO</td>
+                    <td class="border" rowspan="2">Matematicas</td>
+                </tr>
+                <tr>
+                    <td class="border">9:00 - 10:00</td>
+                    <td class="border">Etica</td>
+                    <td class="border">OPP</td>
+                    
+                <tr>
+                    <td class="border" colspan="6">Descanso</td>
+                </tr>
+                <tr>
+                    <td class="border">10:00 - 11:00</td>
+                    <td class="border">Ingles</td>
+                    <td class="border">Fisica</td>
+                    <td class="border">Matematicas</td>
+                    <td class="border">OPP</td>
+                    <td class="border">Si Se</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="border" colspan="6">ekisde lol</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <br>
+
+    <section class="border">
+        <h1>Formulario</h1>
+        <form class="form" action="Login.python">
+            <div >
+                <label for="nombre">Ingrese Usuario: </label> <br>
+                <input id="nombre" type="text" required placeholder="NoName">
+            </div>
+            <div >
+                <fieldset>
+                <legend>Seleccione Genero: </legend> 
+                <input type="radio" name="genero" value="Masculino"> Masculino
+                <input type="radio" name="genero" value="Femenino"> Femenino
+                <input type="radio" name="genero" value="Licuadora 2K2024"> Licuadora 2K2024
+                </fieldset>
+            </div>
+            <fieldset>
+                <legend>Seleccione Hobbie: </legend>
+                <input type="checkbox" name="hobbi" > dormir
+                <input type="checkbox" name="hobbi" > dormir 2
+                <input type="checkbox" name="hobbi" > dormir 3
+            </fieldset>
+            <div>
+                <label for="fecha">Ingrese Fecha: </label> <br>
+                <input id="fecha" type="date">
+            </div>
+            <div>
+                <label for="pais">Seleccione Pais:</label> <br>
+                <select name="pais" id="pais">
+                    <option value="Colombia">Colombia</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Venezuela">Venezuela</option>
+                </select>
+            </div>
+            <div>
+                <label for="email">Ingrese Su @: </label> <br>
+                <input id="email" type="email">
+            </div>
+            <div>
+                <label for="ciudad">Ingrese Ciudad: </label> <br>
+                <input id="ciudad" type="text">
+            </div>
+            <div>
+                <label for="documento">Suba Su Documento: </label> <br>
+                <input id="documento" type="file">
+            </div>
+            <div>
+                <label for="mensaje">Escriba Su Mensaje: </label> <br>
+                <textarea name="mensaje" id="mensaje">Escriba Aqui: </textarea>
+            </div>
+            <div>
+                <label for="contraseña">Ingrese contraseña</label> <br>
+                <input id="contraseña" type="password">
+            </div>
+            <button>Registrar</button>
+            
+        </form>
+    </section>
+    <section>
+        <h1>Multimedia</h1>
+        <section class="img">
+                    <img class="title" src="img/dragon.webp" alt="Marca">
+        </section>
+        <section class="border">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9k91jETchkI?si=K-8jRrhUSU3ETtc5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section class="img">
+            <audio src="sound/audio.mp3" controls autoplay>Audio</audio>
+        </section>
+        <section class="img fondo">
+            <h1>Borders</h1>
+            <p class="border shadow">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam placeat exercitationem beatae eos eius assumenda sunt ullam, minima necessitatibus itaque quod aliquam dolorum, fuga illo repudiandae eligendi minus soluta. Provident.</p>
+        </section>
+    </section>
+    <Footer class="footer background">
+        <p>Here is a quote from WWs website</p>
+        <blockquote cite=
+        "https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics">
+        for 50 years, lorem dolor sit amet consectetur adipisicing elit
+        </blockquote>
+    </Footer>
+</body>
+</html>

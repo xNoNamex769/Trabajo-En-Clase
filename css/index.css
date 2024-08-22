@@ -1,0 +1,87 @@
+actividadtodocss
+body{
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    border: 1px solid rgb(152, 156, 153);
+    height:  10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    border: 1px solid rgb(148, 149, 148);
+    
+}
+
+.footer {
+    border: 1px solid rgb(142, 149, 145);
+    height: 10vh
+    
+}
+.border{
+    border: 1px solid rgb(155, 154, 154);
+}
+.background{
+    background-color: rgb(241, 239, 237);
+}
+.menu1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menuprincipal{
+    width: 40%;
+}
+.item{
+    list-style: none;
+}
+.center{
+    justify-content: center;
+}
+.form{
+    width: 50%;
+    margin: auto;
+    border: 1px solid red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.flex{
+    display: flex;
+    
+}
+.img{
+    width: 50%;
+    margin: auto;
+    border: gray;
+}
+.title{
+    max-width: 100%;
+    min-width: 20%;
+}
+.border{
+    border: 1px solid rgb(0, 0, 0);
+    border-top: 2px double rgb(0, 0, 0);
+    border-right: 3px dotted solid rgb(0, 0, 0);
+    border-bottom: 4px dashed rgb(0, 0, 0);
+}
+.border1{
+    border: 1px solid black;
+    border-radius: 20PX ;
+}
+.shadow{
+    box-shadow: 1px 2px 20px black;
+}
+.fondo{
+    background-image: url(../img/dragon.webp..);
+    background-size: cover;
+    background-position: center;
+}
+.medidas{
+    color:solid black;
+    width: 60%;
+    margin: auto;
+    border: 1px solid red;
+    font-size: 2em;
+}
